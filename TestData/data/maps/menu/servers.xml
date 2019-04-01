@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Servers>
+	<AnimatedModelsServer>
+		<Item
+			id="fightercargo01"
+			file="data\models\AnimModels.xml" />
+		<Item
+			id="scoutcargo01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="city_ruins_0"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="point"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="flag2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="lom"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="deadtree2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="deadtree4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="oilmine2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brokvehicle1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brokvehicle2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="billboard2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="city_ruins"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_substation_barrel"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="electro_stolb1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="lamppost1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="road_sign3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="road_sign5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_tube1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="poddon"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="1_riback"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_desert_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_desert_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_desert_3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_desert_4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_desert_6"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="arena_barricade10"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub_kust1_r2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub_kust2_r2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="robotcab04_small"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="Anticwar_House"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna_america"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna_america_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna_america_3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna_america_4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bridge01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="Mine_With_Animation"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="paris_house_01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="paris_house_02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="paris_house_03"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="paris_house_04"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="paris_house_05"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="paris_house_06"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="paris_house_07"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="zabor_setka1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="zabor_setka2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="zabor_setka3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="poster"
+			file="data\models\AnimModels.xml" />
+	</AnimatedModelsServer>
+
+	<LightsServer />
+
+	<SpritesServer />
+
+	<ParticlesServer />
+
+	<SoundsServer />
+
+	<MusicServer />
+
+	<ProjectorsServer />
+
+	<DecalsServer />
+</Servers>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Servers>
+	<AnimatedModelsServer>
+		<Item
+			id="ElitecruiserChassis"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab03"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo03"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserWheel01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="1_riback"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="wood_debris1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_6"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_7"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_8"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r4_desert_palma_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r4_desert_palma_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r4_desert_palma_3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="factory_box"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="wood_tramp"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="2_ribasky"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="3_ribask"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="boevoy"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="esmin"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kabina"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kater"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="mina"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="minonos"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ostov"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="shlupka"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="torgovy"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="vint"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="pack"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_dtree_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_dtree_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_tree_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_tree_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_tree_3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="Lost_Airplane"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="multi_teleport"
+			file="data\models\AnimModels.xml" />
+	</AnimatedModelsServer>
+
+	<LightsServer />
+
+	<SpritesServer />
+
+	<ParticlesServer />
+
+	<SoundsServer />
+
+	<MusicServer />
+
+	<ProjectorsServer />
+
+	<DecalsServer />
+</Servers>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Servers>
+	<AnimatedModelsServer>
+		<Item
+			id="ElitecruiserChassis"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab03"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo03"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserWheel01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="flag2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brokvehicle1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brokvehicle2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="robotcab04_small"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="tube1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="tube2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_copped_4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_junglebush1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_junglebush2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_TropicTree1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_TropicTree2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_junglebush3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicfern1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicfern2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicpalma1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicpalma2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicpalma3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druid_house1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druid_house2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druid_house3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druid_house4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_druid_house5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="fence_angle"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="fence_short1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_tube_angle"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="factory_box"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="prom_brock1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="factory_cistern1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="long_vertical_tube"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="metal_tube1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bridge_jungle"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="oracle_gate"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_boulder1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_boulder2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_boulder3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="crag_boulder4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="t_greattree1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="t_greattree2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="t_greattree3_"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="druid_wall_01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="druid_wall_02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="multi_teleport"
+			file="data\models\AnimModels.xml" />
+	</AnimatedModelsServer>
+
+	<LightsServer />
+
+	<SpritesServer />
+
+	<ParticlesServer />
+
+	<SoundsServer />
+
+	<MusicServer />
+
+	<ProjectorsServer />
+
+	<DecalsServer />
+</Servers>

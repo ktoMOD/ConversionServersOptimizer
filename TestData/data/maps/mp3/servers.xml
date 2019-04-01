@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Servers>
+	<AnimatedModelsServer>
+		<Item
+			id="ElitecruiserChassis"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab03"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo03"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserWheel01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="nlo0"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="lom"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="deadtree4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="back_exp"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kanistr"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="potatoe"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kustarnik1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kustarnik2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r4_NLO_barricade"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r4_NLO_tree"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="boss04chassis"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="boss04part01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="boss04part04"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="boss04part09"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="boss04part13"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="boss04part16"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="parck"
+			file="data\models\AnimModels.xml" />
+	</AnimatedModelsServer>
+
+	<LightsServer />
+
+	<SpritesServer />
+
+	<ParticlesServer />
+
+	<SoundsServer />
+
+	<MusicServer />
+
+	<ProjectorsServer />
+
+	<DecalsServer />
+</Servers>

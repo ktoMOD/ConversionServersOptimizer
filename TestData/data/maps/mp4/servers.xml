@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Servers>
+	<AnimatedModelsServer>
+		<Item
+			id="ElitecruiserChassis"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCab03"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserCargo03"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ElitecruiserWheel01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bridge01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicpalma1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicpalma2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_tropicpalma3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="lamppost2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_fence1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_fence2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_house1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_house2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_house3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_house4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_house5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_pole"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="well_col"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="gadad_city"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_house6"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_house_br1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_house_br3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="desert_houses_brock1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kef"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r4_freehouse1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r4_freehouse2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r4_freehouse3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bridge03"
+			file="data\models\AnimModels.xml" />
+	</AnimatedModelsServer>
+
+	<LightsServer />
+
+	<SpritesServer />
+
+	<ParticlesServer />
+
+	<SoundsServer />
+
+	<MusicServer />
+
+	<ProjectorsServer />
+
+	<DecalsServer />
+</Servers>
