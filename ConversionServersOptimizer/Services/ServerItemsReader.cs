@@ -6,11 +6,11 @@ using ConversionServersOptimizer.Models;
 
 namespace ConversionServersOptimizer.Services
 {
-    public class ServersReader
+    public class ServerItemsReader
     {
         private readonly XmlDocument _xmlDoc;
 
-        public ServersReader(string uri)
+        public ServerItemsReader(string uri)
         {
             using (var xmlFile = new FileStream(uri, FileMode.Open, FileAccess.Read, FileShare.Read))
             {
@@ -23,6 +23,10 @@ namespace ConversionServersOptimizer.Services
         {
             var result = new List<ServerItem>();
             var xmlNode = _xmlDoc.GetElementsByTagName(serverType.ToString());
+            if (xmlNode.Count == 0)
+            {
+                return result;
+            }
             var childNodes = xmlNode[0].ChildNodes;
             for (var i = 0; i <= childNodes.Count - 1; i++)
             {

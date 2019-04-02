@@ -41,13 +41,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\ServersFileType.cs" />
+    <Compile Include="Models\LightsServer.cs" />
+    <Compile Include="Models\SpritesServer.cs" />
+    <Compile Include="Models\ParticlesServer.cs" />
+    <Compile Include="Models\SoundsServer.cs" />
+    <Compile Include="Models\MusicServer.cs" />
+    <Compile Include="Models\DecalsServer.cs" />
+    <Compile Include="Models\ProjectorsServer.cs" />
+    <Compile Include="Models\AnimatedModelsServer.cs" />
+    <Compile Include="Services\ConfigReader.cs" />
     <Compile Include="Models\Server.cs" />
     <Compile Include="Models\ServersFile.cs" />
     <Compile Include="Models\ServerItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Enums\ServerType.cs" />
-    <Compile Include="Services\ServersReader.cs" />
+    <Compile Include="Services\ServerItemsReader.cs" />
+    <Compile Include="Services\ServersFileWriter.cs" />
+    <Compile Include="Services\ServersFileService.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
