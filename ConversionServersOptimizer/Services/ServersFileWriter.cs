@@ -1,4 +1,5 @@
-﻿using System.Xml;
+﻿using System.Text;
+using System.Xml;
 using System.Xml.Serialization;
 using ConversionServersOptimizer.Models;
 
@@ -17,7 +18,8 @@ namespace ConversionServersOptimizer.Services
                 Indent = true,
                 NewLineOnAttributes = true,
                 NewLineHandling = NewLineHandling.None,
-                CheckCharacters = false
+                CheckCharacters = false,
+                Encoding = Encoding.GetEncoding("windows-1251")
             };
             using (var xmlWriter = XmlWriter.Create(file.PathToFile, xmlWriterSettings))
             {
