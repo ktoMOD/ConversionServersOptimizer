@@ -28,7 +28,7 @@ namespace ConversionServersOptimizer
                 }
             }
 
-            var configValues = new ConfigReader($@"{PathToMainDirectory}\ConversionServersOptimizer.config").GetConfig();
+            var configValues = new ConfigReader($@"{PathToMainDirectory}\ConversionServersOptimizer.cfg").GetConfig();
             var files = new List<ServersFile>();
             foreach (var config in configValues)
             {
@@ -57,6 +57,8 @@ namespace ConversionServersOptimizer
             {
                 serversFileWriter.Save(serversFile);
             }
+            Console.WriteLine("Done!");
+            Console.ReadLine();
         }
     }
 }
