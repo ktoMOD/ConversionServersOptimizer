@@ -51,21 +51,11 @@ namespace ConversionServersOptimizer
             serversFileService.MoveCommonItemsToCommonServersFiles(commonMapsFile, regularMapsFiles);
             serversFileService.MoveCommonItemsToCommonServersFiles(commonMultiplayerFile, regularMultiplayerFiles);
 
-            var serializer = new XmlSerializer(typeof(ServersFile));
-            var ns = new XmlSerializerNamespaces();
-            ns.Add("", "");
-            var xmlWriterSettings = new XmlWriterSettings()
+            var allServersFiles = regularFiles.Concat(regularMapsFiles).Concat(regularMultiplayerFiles).Concat(new List<ServersFile>{ commonFile, commonMapsFile, commonMultiplayerFile });
+            var serversFileWriter = new ServersFileWriter();
+            foreach (var serversFile in allServersFiles)
             {
-                OmitXmlDeclaration = true,
-                Indent = true,
-                NewLineOnAttributes = true,
-                NewLineHandling = NewLineHandling.None,
-                CheckCharacters = false
-            };
-            using (var xmlWriter = XmlWriter.Create(@"c:\temp\garage.xml", xmlWriterSettings))
-            {
-                xmlWriter.WriteRaw("<?xml version=\"1.0\" encoding=\"windows-1251\" standalone=\"yes\"?>\r\n");
-                serializer.Serialize(xmlWriter, commonFile, ns);
+                serversFileWriter.Save(serversFile);
             }
         }
     }
