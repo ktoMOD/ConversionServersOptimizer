@@ -10,6 +10,7 @@ namespace ConversionServersOptimizer.Services
     {
         public void RemoveDuplicationsFromRegularServersFiles(ServersFile commonServersFile, List<ServersFile> regularServersFiles)
         {
+            if (commonServersFile == null) return;
             foreach (var regularServersFile in regularServersFiles)
             {
                 foreach (var commonServer in commonServersFile.Servers)
@@ -36,7 +37,7 @@ namespace ConversionServersOptimizer.Services
 
         public void MoveCommonItemsToCommonServersFiles(ServersFile commonServersFile, List<ServersFile> regularServersFiles)
         {
-            if (regularServersFiles.Count < 2) return;
+            if (commonServersFile == null || regularServersFiles.Count < 2) return;
             foreach (var serverType in (ServerType[])Enum.GetValues(typeof(ServerType)))
             {
                 var listOfLists = new List<List<ServerItem>>();

@@ -36,25 +36,30 @@ namespace ConversionServersOptimizer
             }
 
             var regularFiles = files.Where(x => x.FileType == ServersFileType.Regular).ToList();
-            var commonFile = files.First(x => x.FileType == ServersFileType.Common);
-            var regularMapsFiles = files.Where(x => x.FileType == ServersFileType.RegularMaps).ToList();
-            var commonMapsFile = files.First(x => x.FileType == ServersFileType.CommonMaps);
+            var commonFile = files.FirstOrDefault(x => x.FileType == ServersFileType.Common);
+            var regularArcadeFiles = files.Where(x => x.FileType == ServersFileType.RegularArcade).ToList();
+            var commonArcadeFile = files.FirstOrDefault(x => x.FileType == ServersFileType.CommonArcade);
+            var regularEm1Files = files.Where(x => x.FileType == ServersFileType.RegularEm1).ToList();
+            var commonEm1File = files.FirstOrDefault(x => x.FileType == ServersFileType.CommonEm1);
             var regularMultiplayerFiles = files.Where(x => x.FileType == ServersFileType.RegularMultiplayer).ToList();
-            var commonMultiplayerFile = files.First(x => x.FileType == ServersFileType.CommonMultiplayer);
+            var commonMultiplayerFile = files.FirstOrDefault(x => x.FileType == ServersFileType.CommonMultiplayer);
 
             var serversFileService = new ServersFileService();
             serversFileService.RemoveDuplicationsFromRegularServersFiles(commonFile, regularFiles);
-            serversFileService.RemoveDuplicationsFromRegularServersFiles(commonMapsFile, regularMapsFiles);
+            serversFileService.RemoveDuplicationsFromRegularServersFiles(commonArcadeFile, regularArcadeFiles);
+            serversFileService.RemoveDuplicationsFromRegularServersFiles(commonEm1File, regularEm1Files);
             serversFileService.RemoveDuplicationsFromRegularServersFiles(commonMultiplayerFile, regularMultiplayerFiles);
 
             serversFileService.MoveCommonItemsToCommonServersFiles(commonFile, regularFiles);
-            serversFileService.MoveCommonItemsToCommonServersFiles(commonMapsFile, regularMapsFiles);
+            serversFileService.MoveCommonItemsToCommonServersFiles(commonArcadeFile, regularArcadeFiles);
+            serversFileService.MoveCommonItemsToCommonServersFiles(commonEm1File, regularEm1Files);
             serversFileService.MoveCommonItemsToCommonServersFiles(commonMultiplayerFile, regularMultiplayerFiles);
 
-            var allServersFiles = regularFiles.Concat(regularMapsFiles).Concat(regularMultiplayerFiles).Concat(new List<ServersFile>{ commonFile, commonMapsFile, commonMultiplayerFile });
+            var allServersFiles = regularFiles.Concat(regularArcadeFiles).Concat(regularEm1Files).Concat(regularMultiplayerFiles).Concat(new List<ServersFile>{ commonFile, commonArcadeFile, commonEm1File, commonMultiplayerFile });
             var serversFileWriter = new ServersFileWriter();
             foreach (var serversFile in allServersFiles)
             {
+                if (serversFile == null) continue;
                 serversFileWriter.Save(serversFile);
             }
             Console.WriteLine("Done!");

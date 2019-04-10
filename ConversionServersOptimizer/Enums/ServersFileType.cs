@@ -3,10 +3,12 @@
     public enum ServersFileType
     {
         Common,
-        CommonMaps,
         CommonMultiplayer,
+        CommonArcade,
+        CommonEm1,
         Regular,
-        RegularMaps,
-        RegularMultiplayer
+        RegularMultiplayer,
+        RegularArcade,
+        RegularEm1
     }
 }

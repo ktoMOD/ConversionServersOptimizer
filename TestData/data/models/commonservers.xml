@@ -860,79 +860,6 @@
 
 	<SoundsServer>
 		<Item
-			id="S_GEIGER" />
-
-		<Item
-			id="S_ZOMBIE_RUN_1"/>
-
- 		<Item
-			id="S_ZOMBIE_RUN_2"/>
-		
- 		<Item
-			id="S_ZOMBIE_DIE_1"/>
-
- 		<Item
-			id="S_ZOMBIE_DIE_2"/>
-
- 		<Item
-			id="S_ZOMBIE_DIE_3"/>
-
- 		<Item
-			id="S_ZOMBIE_DIE_4"/>
-
- 		<Item
-			id="S_ZOMBIE_DIE_5"/>
-
- 		<Item
-			id="S_ZOMBIE_RESURRECT_1"/>
-
- 		<Item
-			id="S_ZOMBIE_RESURRECT_2"/>
-
- 		<Item
-			id="S_ZOMBIE_RESURRECT_3"/>
-
- 		<Item
-			id="S_ZOMBIE_HIT_1"/>
-
- 		<Item
-			id="S_ZOMBIE_HIT_2"/>
-
- 		<Item
-			id="S_ZOMBIE_HIT_3"/>
-
- 		<Item
-			id="S_ZOMBIE_BOMB_RUN"/>
-
- 		<Item
-			id="S_ZOMBIE_BOMB_EXPLODE"/>
-
-		<Item
-			id="S_MUSHROOM_EXPLOSION" />
-
-		<Item
-			id="S_SHOOTING_KPVTNEW" />
-
-		<Item
-			id="S_SHOOTING_VULCANNEW" />
-
-		<Item
-			id="S_ENGINE_HERO_STAND_v2+" />
-
-		<Item
-			id="S_ENGINE_HERO_ACCELERATION_v2+" />
-
-		<Item
-			id="S_ENGINE_HERO_DRIVE1_v2+" />
-
-		<Item
-			id="S_ENGINE_HERO_DRIVE2_v2+" />
-
-		<Item 
-			id="S_BOOSTER01"/>
-
-
-		<Item
 			id="S_SHOOTING_ROBOTGUN_01" />
 
 		<Item
@@ -2136,10 +2063,6 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item
-			id="Mushroom_02_Oshmetki"
-			file="data\models\AnimModels.xml"/>
-
-		<Item
 			id="flag_lonely_robbers_big"
 			file="data\models\AnimModels.xml" />
 
@@ -2185,10 +2108,6 @@
 
 		<Item
 			id="loadpoint"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="point"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -3290,10 +3209,6 @@
 
 		<Item
 			id="pkt01gun"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="hunter01gun"
 			file="data\models\AnimModels.xml" />
 
 		<Item
